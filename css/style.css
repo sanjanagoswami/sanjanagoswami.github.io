@@ -93,15 +93,15 @@ figure {
 }
 
   @media screen and (max-width: 768px) {
-    #colorlib-aside {
-      width: 300px;
-      height: 100%;
-      -moz-transform: translateX(-300px);
-      -webkit-transform: translateX(-300px);
-      -ms-transform: translateX(-300px);
-      -o-transform: translateX(-300px);
-      transform: translateX(-300px);
-      padding-top: 4em; } }
+  #colorlib-aside {
+    width: 300px;
+    height: 100%;
+    -moz-transform: translateX(-300px);
+    -webkit-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    -o-transform: translateX(-300px);
+    transform: translateX(-300px);
+    padding-top: 4em; } }
   #colorlib-aside .author-img, .about-desc .author-img {
     width: 150px;
     height: 150px;
@@ -388,8 +388,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 2em;
+  padding-bottom: 10em;
   clear: both;
   width: 100%;
   display: block; }
@@ -402,8 +402,19 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
+      padding-top: 2em;
       padding-bottom: 8em; } }
+
+.colorlib-contact {
+  padding-top: 2em;
+  padding-bottom: 30em;
+}
+
+@media screen and (max-width: 768px) {
+  .colorlib-contact {
+      padding-top: 2em;
+      padding-bottom: 20em; }
+}
 
 .author-img {
   background-size: cover;
@@ -423,7 +434,7 @@ body.offcanvas {
     display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-heading {
-      margin-bottom: 3em; } }
+      margin-bottom: 1em; } }
 
 .heading-meta {
   margin-bottom: 15px;
@@ -1449,7 +1460,7 @@ body.offcanvas {
   font-size: 13px;
 }
 
-.vertical-separator {
+.v-sep-medium {
   height: 14px;
   width: 100%;
 }
