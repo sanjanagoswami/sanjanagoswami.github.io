@@ -84,6 +84,13 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
+
+@media screen and (min-width: 768px) {
+    .about-header {
+      display: none;
+    }
+}
+
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
@@ -93,7 +100,7 @@ figure {
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
       padding-top: 4em; } }
-  #colorlib-aside .author-img {
+  #colorlib-aside .author-img, .about-desc .author-img {
     width: 150px;
     height: 150px;
     margin: 0 auto;
@@ -1440,7 +1447,7 @@ body.offcanvas {
   font-size: 13px;
 }
 
-.v-sep-medium {
+.vertical-separator {
   height: 14px;
   width: 100%;
 }
