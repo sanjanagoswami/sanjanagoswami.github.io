@@ -1430,3 +1430,17 @@ body.offcanvas {
 .profile-info {
   margin-bottom: 2em;
 }
+
+.sub-header {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.text-desc {
+  font-size: 13px;
+}
+
+.v-sep-medium {
+  height: 14px;
+  width: 100%;
+}
