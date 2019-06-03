@@ -102,7 +102,7 @@ figure {
     -o-transform: translateX(-300px);
     transform: translateX(-300px);
     padding-top: 4em; } }
-  #colorlib-aside .author-img, .about-desc .author-img {
+  #colorlib-aside .author-img, .about-header .author-img {
     width: 150px;
     height: 150px;
     margin: 0 auto;
