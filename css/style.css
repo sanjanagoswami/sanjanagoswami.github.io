@@ -381,12 +381,12 @@ body.offcanvas {
   padding: 0; }
 
 .colorlib-experience,
-.colorlib-skills,
+.colorlib-teaching,
 .colorlib-education,
 .colorlib-blog,
-.colorlib-work,
+.colorlib-resources,
 .colorlib-about,
-.colorlib-services,
+.colorlib-research,
 .colorlib-contact {
   padding-top: 2em;
   padding-bottom: 10em;
@@ -395,14 +395,14 @@ body.offcanvas {
   display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-experience,
-    .colorlib-skills,
+    .colorlib-teaching,
     .colorlib-education,
     .colorlib-blog,
-    .colorlib-work,
+    .colorlib-resources,
     .colorlib-about,
-    .colorlib-services,
+    .colorlib-research,
     .colorlib-contact {
-      padding-top: 2em;
+      padding-top: 3em;
       padding-bottom: 8em; } }
 
 .colorlib-contact {
@@ -412,7 +412,6 @@ body.offcanvas {
 
 @media screen and (max-width: 768px) {
   .colorlib-contact {
-      padding-top: 2em;
       padding-bottom: 20em; }
 }
 
@@ -424,7 +423,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
