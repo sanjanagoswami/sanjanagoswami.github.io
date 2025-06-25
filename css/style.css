@@ -232,11 +232,19 @@ figure {
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s;
+  
+  color: #111 /*make main text a darker shade */
+ }
   @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
-      padding: 0 1em; } }
+      padding: 0 1em; 
+
+  /* Also add here so mobile gets the same color */
+     color: #111;
+}
+}
 
 #colorlib-hero {
   min-height: 500px;
