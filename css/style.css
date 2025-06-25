@@ -1502,19 +1502,16 @@ a:hover {
 
 @media (max-width: 768px) {
   .about-container {
-    flex-direction: column;
-    align-items: center !important;
+    justify-content: center !important;
     text-align: center;
   }
 
-  .about-text {
-    text-align: left;
-    padding-top: 15px;
+  .about-container img {
+    display: block !important;
+    margin: 0 auto !important;
   }
 
-  .about-container img {
-    margin: 0 auto;
+  .about-text {
+    text-align: left !important;
   }
 }
-
-
