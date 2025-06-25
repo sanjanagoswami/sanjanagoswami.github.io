@@ -1488,3 +1488,8 @@ a:hover {
     color: inherit;         /* Still same color */
     text-decoration: underline; /* Keep the underline */
 }
+
+#colorlib-logo a {
+  text-decoration: none;
+}
+
