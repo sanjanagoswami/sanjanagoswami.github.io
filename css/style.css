@@ -435,6 +435,11 @@ body.offcanvas {
   margin-bottom: 30px; /* This adds space below the image */
 }
 
+#colorlib-logo {
+  margin-top: 10px; /* Pushes the name down slightly */
+}
+
+
 .colorlib-heading {
   font-size: 18px;
   margin-bottom: 1em;
