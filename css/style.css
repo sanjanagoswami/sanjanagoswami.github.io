@@ -447,7 +447,9 @@ body.offcanvas {
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 1.8;
-  position: relative; }
+  position: relative;
+  color: #2c98f0;
+ }
   .colorlib-heading span {
     display: block; }
   @media screen and (max-width: 768px) {
