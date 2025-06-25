@@ -424,8 +424,8 @@ body.offcanvas {
 }
 
 .author-img {
-  width: 120px;           /* set width for portrait */
-  height: 180px;          /* taller height */
+  width: 120px !important;           /* set width for portrait */
+  height: 180px !important;          /* taller height */
   border-radius: 0 !important;
   background-size: cover;
   background-position: center center;
