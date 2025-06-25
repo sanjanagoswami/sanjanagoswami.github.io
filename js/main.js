@@ -296,9 +296,12 @@
 
 		clickMenu();
 		// navActive();
-		navigationSection();
-		// windowScroll();
+		setTimeout(function() {
+			window.scrollTo(0, 0);
+			navigationSection();
+		}, 500);
 
+		// windowScroll();
 
 		mobileMenuOutsideClick();
 		sliderMain();
