@@ -1522,3 +1522,27 @@ a:hover {
   margin-top: 2.5em;
   margin-bottom: 0.5em;
 }
+
+
+.colorlib-heading {
+  margin-bottom: 20px; /* Set this to your desired consistent gap */
+}
+
+.colorlib-narrow-content > .row:first-child {
+  margin-bottom: 0; /* Remove extra margin from wrapping row if it exists */
+}
+
+.colorlib-narrow-content h2.colorlib-heading {
+  margin-bottom: 20px; /* Ensures all h2 headings in narrow-content have the same gap */
+}
+
+.colorlib-narrow-content > .row {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.colorlib-narrow-content > .row + .row {
+  margin-top: 0 !important;
+}
+.colorlib-narrow-content > .row:first-child {
+  margin-bottom: 20px !important; /* or your preferred spacing */
+}
