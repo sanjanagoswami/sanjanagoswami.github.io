@@ -1500,3 +1500,8 @@ a:hover {
   text-decoration: none;
 }
 
+.darker-text {
+  color: #222222;  /* Darker gray/black */
+  font-weight: 600; /* Optional: make it semi-bold */
+}
+
