@@ -1463,3 +1463,15 @@ body.offcanvas {
   height: 14px;
   width: 100%;
 }
+
+/* Make all links the same color as body text and underline them */
+a {
+    color: inherit;         /* Inherit color from surrounding text */
+    text-decoration: underline; /* Underline to indicate it's a link */
+}
+
+/* Optional: Customize on hover for better UX */
+a:hover {
+    color: inherit;         /* Still same color */
+    text-decoration: underline; /* Keep the underline */
+}
