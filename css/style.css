@@ -432,6 +432,7 @@ body.offcanvas {
   background-repeat: no-repeat !important;
   margin: 0 auto !important;
   position: relative !important;
+  margin-bottom: 15px; /* This adds space below the image */
 }
 
 .colorlib-heading {
