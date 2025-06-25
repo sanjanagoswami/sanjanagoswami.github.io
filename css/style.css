@@ -424,10 +424,16 @@ body.offcanvas {
 }
 
 .author-img {
+  width: 120px;           /* set width for portrait */
+  height: 180px;          /* taller height */
+  border-radius: 5px;     /* optional: small rounded corners */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  position: relative; }
+  position: relative;
+  margin: 0 auto;         /* center horizontally */
+}
+
 
 .colorlib-heading {
   font-size: 18px;
